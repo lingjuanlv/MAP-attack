@@ -33,7 +33,7 @@ To compute the MAE for anomaly detection, feed the original or two-stage perturb
 Requirements:
 
 Matlab
-KDE toolbox: http://www.ics.uci.edu/⇠ihler/code/kde.html
+KDE toolbox: https://www.ics.uci.edu/~ihler/code/kde.html
 
 If error occurs during compiling KDE on matlab, try the following solution:
 
