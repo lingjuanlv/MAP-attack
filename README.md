@@ -38,6 +38,7 @@ KDE toolbox: http://www.ics.uci.edu/⇠ihler/code/kde.html
 If error occurs during compiling KDE on matlab, try the following solution:
 
 file mex/cpp/BallTreeDensityClass.cpp, replace line 470 with:
+
 type = (BallTreeDensity::KernelType)(int)mxGetScalar(mxGetField(structure,0,"type"));
 
 Remember to cite the following papers if you use any of the code:
