@@ -33,13 +33,13 @@ To compute the MAE for anomaly detection, feed the original or two-stage perturb
 Requirements:
 
 Matlab
-KDE toolbox: https://www.ics.uci.edu/~ihler/code/kde.html
+KDE toolbox (https://www.ics.uci.edu/~ihler/code/kde.html)
 
-If error occurs during compiling KDE on matlab, try the following solution:
+Note:
 
-file mex/cpp/BallTreeDensityClass.cpp, replace line 470 with:
-
-type = (BallTreeDensity::KernelType)(int)mxGetScalar(mxGetField(structure,0,"type"));
+Put @kde under the your directory and set path in matlab. For example:
+/home/ihler/myMatlabCode/@kde
+add to my path: '/home/ihler/myMatlabCode'
 
 Remember to cite the following papers if you use any of the code:
 
