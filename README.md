@@ -33,13 +33,13 @@ To compute the MAE for anomaly detection, feed the original or two-stage perturb
 Requirements:
 
 Matlab
+
 KDE toolbox (https://www.ics.uci.edu/~ihler/code/kde.html)
 
 Note:
 
 Put @kde under the your directory and set path in matlab. For example:
-/home/ihler/myMatlabCode/@kde
-add to my path: '/home/ihler/myMatlabCode'
+/home/ihler/myMatlabCode/@kde, then add it to my path: '/home/ihler/myMatlabCode'
 
 Remember to cite the following papers if you use any of the code:
 
